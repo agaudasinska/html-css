@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="Stylesheet" type="text/css" href="Style.css" />
+<title>My first Form</title>
+</head>
+<body>
+
+	<h1>Customer</h1>
+	<form action="/my-handling-form-page" method="post">
+		<div>
+			<label for="name">Name:</label> <input type="text"
+				required="required" id="name" />
+		</div>
+
+		<div>
+			<label for="surname">Surname:</label> <input type="text"
+				required="required" id="surname" />
+		</div>
+
+		<div>
+			<label for="email">E-mail:</label> <input type="email" id="email" />
+		</div>
+
+		<div>
+			<label for="type"> Type:</label> <input type="radio" name="type"
+				value="individual" checked>Individual <input type="radio"
+				name="type" value="business">Business
+		</div>
+
+
+		<div>
+			<label for="name">Name:</label> <input type="text" id="name" />
+		</div>
+
+
+		<label for="type">Type </label><select>
+
+			<option value="normal">Normal</option>
+			<option value="option">Big</option>
+			<option value="small">Small</option>
+			<option value="medium">Medium</option>
+		</select>
+
+	</form>
+
+
+	<p>Suggested delivery date</p>
+	<div>
+		<label for="delivery"></label> <input type="email" id="email" />
+	</div>
+
+	<p>Additional data</p>
+	<textarea name="tresc" rows="5" cols="50">Fragment tekstu</textarea>
+<div>
+	<input type=button
+		onClick="location.href='file:///C:/Users/Comarch/Documents/workspace-sts-3.7.db/Staż/WebContent/table.html'"
+		value='Order pizza'>
+</div>
+	<a href="http://google.com" class="button">Go to Google</a>
+
+</body>
+</html>
